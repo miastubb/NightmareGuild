@@ -1,2 +1,0 @@
-# NightmareGuild
-team page

@@ -100,6 +100,50 @@
         <li>sorcerer<a href="dragon%20class%20sorcerer.html">sorcerer</a></li>
         <li>invoker<a href="dragon%20class%20invoker.html">invoker</a></li>
       </ul>
+    <title>Login Page</title>
+      <style>
+          .bottom-left-button {
+              position: fixed;
+              bottom: 20px;
+              left: 20px;
+              padding: 10px 15px;
+              font-size: 16px;
+              color: white;
+              background-color: rgb(216, 129, 228);
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+          }
+           /* Round button */
+        .round-button {
+            position: fixed;
+            bottom: 30px;
+            left: 250px; /* Adjust to position next to the other button */
+            width: 70px;
+            height: 70px;
+            background-color: red;
+            color: white;
+            font-size: 14px;
+            text-align: center;
+            line-height: 60px;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        /* Button hover effect */
+        .round-button:hover {
+            background-color: darkred;
+        }
+      </style>
+
+  </head>
+  <body>
+      <button class="bottom-left-button" onclick="location.href='index1.html'">Go to Subpage</button>
+       <!-- Round button linking to YouTube -->
+    <button class="round-button" onclick="window.open('https://www.youtube.com/watch?v=v7ScGV5128A')">
+      PushMe
+  </button>
     </main>
   </body>
 </html>

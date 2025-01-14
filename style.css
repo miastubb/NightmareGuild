@@ -61,7 +61,7 @@ input::placeholder {
   color: #fff;
 }
 input:focus {
-  outline: none:
+  outline: none;
 }
 .options {
   display: flex;
